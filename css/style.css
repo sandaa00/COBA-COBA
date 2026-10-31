@@ -18,3 +18,16 @@
   --radius: 12px;
   --font: "Segoe UI", system-ui, sans-serif;
 }
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font);
+  font-size: 1rem;
+  line-height: 1.6;
+  color: var(--text);
+  background: var(--bg);
+}
